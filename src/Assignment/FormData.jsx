@@ -8,7 +8,7 @@ function FormData({data}) {
     const submit=(e)=>{
         e.preventDefault();
         alert("Your ticket is successfully Booked");
-        navigate("/");
+        navigate("/Final-project");
     }
 
     const detail = data.filter(item => (item.score).toString() === id)
